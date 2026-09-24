@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: bash container.sh
-      - run: bash container.sh
+      - run: docker build -t minside .
