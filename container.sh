@@ -9,3 +9,11 @@ docker exec web ls /usr/share/nginx/html
 
 
 docker logs web
+
+docker stop web
+
+docker stop web1
+
+docker rm web
+
+docker rm web1
