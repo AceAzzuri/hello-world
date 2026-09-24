@@ -1,6 +1,7 @@
-.github/workflows/docker.yml
 name: docker
+
 on: push
+
 jobs:
   docker:
     runs-on: ubuntu-latest
